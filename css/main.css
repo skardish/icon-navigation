@@ -1,18 +1,52 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  box-sizing: border-box;
+  font-family: "Abhaya Libre", serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+h1 {
+  color: #fff;
+}
+
+li {
+  display: inline-block;
+}
+
+.masthead {
+  background-color: #423ca3;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.btn {
+  background-color: #15114c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #15114c;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
 }
